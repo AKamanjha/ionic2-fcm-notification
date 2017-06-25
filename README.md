@@ -1,26 +1,17 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Welcome to the ionic2-fcm-notification !
+## steps to run the project
+1. Add  > google-services.json into the root directory 
+2. ### Install the Cordova and Ionic Native plugins:
+   * > $ ionic cordova plugin add cordova-plugin-fcm
+   * > $ npm install --save @ionic-native/fcm
+3. Add this plugin to your app's module
+4. ### Build the app
+   > ionic cordova build android --prod --release
+5. ### Sign The file and enter your keyphrase(password)to sign
+   > jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks /Users/biizlo/Desktop/testApp/platforms/android/build/outputs/apk/android-release-unsigned.apk my-alias
+6. ### create signed apk (replace Zipalign path with your android sdk zipalign path)
+   > ~/Library/Android/sdk/build-tools/25.0.3/zipalign -v 4 /Users/biizlo/Desktop/testApp/platforms/android/build/outputs/apk/android-release-unsigned.apk HelloWorld.apk
+7. Verify If apk is signed(same as zipalign path, find path of apksigner path)
+   >  ~/Library/Android/sdk/build-tools/25.0.3/apksigner verify HelloWorld.apk
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
 
