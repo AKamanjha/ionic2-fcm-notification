@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357927524474",
+    "firebase_url": "https://cutepuppypics-a069e.firebaseio.com",
+    "project_id": "cutepuppypics-a069e",
+    "storage_bucket": "cutepuppypics-a069e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357927524474:android:3a7792fc3d72a570",
+        "android_client_info": {
+          "package_name": "com.cutePuppyPics.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357927524474-l3dmg2e5ee4vs3mlj1iidf7pao9e61mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-B_c8cD-NMdM3OJfz2MunVrFnzqEk574"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
