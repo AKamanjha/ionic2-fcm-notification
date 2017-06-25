@@ -17,7 +17,7 @@ crete an fcm project with the same package name as yours, your package name can 
    >  ~/Library/Android/sdk/build-tools/25.0.3/apksigner verify HelloWorld.apk
    
 ## Check these files for the code implementation
-  1.  > [app.module.ts](https://github.com/AKamanjha/ionic2-fcm-notification/src/app/app.module.ts)
+  1.  > [app.module.ts](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.module.ts)
   2.  > [app.component.ts](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts)
   
   
