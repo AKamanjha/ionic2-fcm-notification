@@ -18,7 +18,7 @@ crete an fcm project with the same package name as yours, your package name can 
    
 ## Check these files for the code implementation
   1.  > [app.module.ts fcm module import](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.module.ts#L14) and [app.module.ts intialize inside provider](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.module.ts#L39)
-  2.  > [app.component.ts fcm module import](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L5) , [app.component.ts constructor initialization](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L15) [app.component.ts fcm code](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L24-L40) 
+  2.  > [app.component.ts fcm module import](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L5) , [app.component.ts constructor initialization](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L15) and [app.component.ts fcm code](https://github.com/AKamanjha/ionic2-fcm-notification/blob/master/src/app/app.component.ts#L24-L40) 
   
   
 
