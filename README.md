@@ -9,6 +9,8 @@ crete an fcm project with the same package name as yours, your package name can 
 3. Add this plugin to your app's module
 4. ### Build the app
    > ionic cordova build android --prod --release
+   ### generate private key
+   > keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 5. ### Sign The file and enter your keyphrase(password)to sign
    > jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.jks /Users/biizlo/Desktop/testApp/platforms/android/build/outputs/apk/android-release-unsigned.apk my-alias
 6. ### create signed apk (replace Zipalign path with your android sdk zipalign path)
